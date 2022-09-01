@@ -1,0 +1,32 @@
+.h22 {
+  color: #777;
+}
+.p {
+  display: flex;
+}
+.number {
+  width: 100px;
+  font-weight: 700;
+}
+
+.percent {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: darkgrey;
+  color: #fff;
+}
+.statistic {
+  color: #555;
+  text-align: right;
+  padding: 0 40px 10px;
+  background-color: #fff;
+}
+
+.numb {
+  font-size: 26px;
+  width: 100px;
+  font-weight: 700;
+  text-align: center;
+}
