@@ -3,7 +3,7 @@ import css from './Statistics.module.css';
 export default function Statistics({ good, neutral, bad, total, percent }) {
   return (
     <>
-     <div className={css.statistic}>
+      <div className={css.statistic}>
         <p className={css.p}>
           good: <span className={css.number}>{good}</span>
         </p>
@@ -31,5 +31,5 @@ Statistics.propTypes = {
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired,
-  percent: PropTypes.number.isRequired,
+  percent: PropTypes.string.isRequired,
 };
