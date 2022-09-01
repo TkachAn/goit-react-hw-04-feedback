@@ -1,0 +1,27 @@
+.feedback {
+  background-color: lightgray;
+}
+
+button {
+  width: 55px;
+  height: 25px;
+  border-radius: 45px;
+  border: none;
+  margin: 10px 2px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+button:hover {
+  background: #2ee59d;
+  box-shadow: 0 15px 20px;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
